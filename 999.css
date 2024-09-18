@@ -1,0 +1,36 @@
+*{
+    font-family:  Inter;
+    margin: 0;
+    padding: 0;
+}
+
+.progress{
+    background-color: rgb(215, 231, 221);
+position: relative;
+display: inline-block;
+width: 478px;
+height: 8px;
+overflow: hidden;
+vertical-align: middle;
+border-radius: 100px;
+}
+.progress .js{
+    width: 55px;
+height: 8px;
+background: rgb(53, 135, 86);
+position: relative;
+background-color: rgb(53, 135, 86);
+border-radius: 100px;
+transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
+}
+.box{
+    position:relative;
+    background-color: rgb(235, 243, 238);
+width: 1204px;
+height: 144px;
+padding: 16px;
+bottom: -400px;
+}
+
+
+
